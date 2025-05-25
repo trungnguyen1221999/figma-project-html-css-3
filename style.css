@@ -46,6 +46,10 @@ ul {
   line-height: 1.67; /* 166.667% */
 }
 
+.btn:hover {
+  opacity: 0.85;
+}
+
 .desc {
   color: #575f66;
   font-family: Sora;
@@ -410,8 +414,17 @@ h3 {
   border-radius: 6px;
   background-color: #eaf6ff;
   padding: 28px 5px 0;
+  transition: 0.7s;
 }
 
+.dentist__img:hover {
+  scale: 1.1;
+  transition: 0.7s;
+  cursor: pointer;
+}
+.overflow__img {
+  overflow: hidden;
+}
 .dentist__name {
   color: #10375c;
   text-align: center;
@@ -460,4 +473,59 @@ h3 {
   cursor: pointer;
   color: white;
   background-color: #2e80ce;
+}
+
+/* app-download */
+.app__container {
+  background-color: var(--primary__color);
+  height: 427px;
+  position: relative;
+  padding: 0 70px;
+}
+
+.app__left {
+}
+
+.app__img {
+  width: 284px;
+  height: 522px;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+}
+
+.app__right {
+  width: 50%;
+}
+
+.app_heading {
+  text-align: left;
+  color: white;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2; /* 120% */
+  letter-spacing: -1px;
+  width: 489px;
+}
+
+.app__desc {
+  text-align: left;
+  color: white;
+  padding-top: 18px;
+  padding-bottom: 38px;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.67; /* 166.667% */
+}
+
+.download {
+  display: flex;
+  gap: 38px;
+  align-items: center;
+}
+
+.download:hover {
+  cursor: pointer;
 }

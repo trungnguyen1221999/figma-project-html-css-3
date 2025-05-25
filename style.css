@@ -611,3 +611,41 @@ h3 {
   font-weight: 400;
   line-height: normal;
 }
+
+/* appointment */
+.blog {
+  margin: 180px 0;
+}
+
+.appointment__container {
+  background-color: #f6fbff;
+  padding: 100px 178px;
+  display: block;
+}
+
+.appointment__desc {
+  display: block;
+  text-align: center;
+  color: #575f66;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.75; /* 175% */
+  width: 617px;
+  margin: 20px auto 38px auto;
+}
+
+.appointment__btn {
+  margin: -38px auto;
+}
+
+.appointment__heading::after {
+  content: "";
+  display: flex;
+  flex-direction: column;
+  width: 136px;
+  height: 2px;
+  background-color: #2e80ce;
+  align-items: center;
+  margin: 18px auto 0 auto;
+}

@@ -384,3 +384,80 @@ h3 {
   padding-top: 18px;
   padding-bottom: 38px;
 }
+
+/* ====dentist===== */
+.dentist__container {
+  display: block;
+}
+
+.dentist {
+  margin: 170px 0;
+}
+
+.dentist_btn {
+  margin: 38px auto 70px;
+}
+
+.dentist__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 38px;
+}
+
+.dentist__img {
+  width: 253px;
+  height: 306px;
+  border-radius: 6px;
+  background-color: #eaf6ff;
+  padding: 28px 5px 0;
+}
+
+.dentist__name {
+  color: #10375c;
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75; /* 175% */
+  padding-top: 12px;
+}
+
+.dentist__desc {
+  color: #575f66;
+  text-align: center;
+  font-family: Sora;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.86; /* 185.714% */
+  padding-bottom: 38px;
+}
+
+.control__arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+
+.next__arrow {
+  transform: rotate(180deg);
+}
+
+.control__previous,
+.control__next {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #575f66;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control__previous:hover,
+.control__next:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #2e80ce;
+}

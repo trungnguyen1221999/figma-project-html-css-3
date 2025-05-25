@@ -343,3 +343,44 @@ h3 {
   transform: translateY(-30px);
   cursor: pointer;
 }
+
+/* appointment */
+
+.appointment {
+  background-color: #fff;
+  margin: 170px 0;
+}
+
+.appointment__left {
+  width: 50%;
+  position: relative;
+}
+
+.appointment__right {
+  width: 40%;
+}
+.appointment__img--large {
+  width: 512px;
+  height: 370px;
+  border-radius: 6px;
+  box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.07);
+}
+
+.appointment__img--small {
+  position: absolute;
+  width: 332px;
+  height: 370px;
+  border-radius: 6px;
+  background: lightgray 50% / cover no-repeat;
+  top: 121px;
+  right: 5px;
+}
+
+.appointment__heading {
+  text-align: left;
+}
+
+.appointment__desc {
+  padding-top: 18px;
+  padding-bottom: 38px;
+}
